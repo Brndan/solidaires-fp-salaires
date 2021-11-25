@@ -11,7 +11,6 @@ menuEchelon.addEventListener("change", () => {
   }
   let indice = parseInt(document.getElementById('echelon').value,10);
   let traitementBrutActuel = indice * ptIndiceActuel;
-  console.log(traitementBrutActuel);
   let traitementInflationCompensee = traitementBrutActuel + traitementBrutActuel * ((inflationDepuis1995 - augmentationIndiceDepuis1995)/100);
   console.log("Devrait être " + traitementInflationCompensee);
   let baissePourcentage = inflationDepuis1995 - augmentationIndiceDepuis1995;
