@@ -16,6 +16,10 @@ menuEchelon.addEventListener("change", () => {
   let baissePourcentage = inflationDepuis1995 - augmentationIndiceDepuis1995;
   let manqueMensuel = traitementInflationCompensee - traitementBrutActuel;
   let manqueAnnuel = manqueMensuel * 12;
+  document.getElementById("traitementIndiciaireBrut").innerHTML = (Math.round(traitementBrutActuel * 100) / 100).toLocaleString() + "&nbsp;€";
+  document.getElementById("traitementInflationCompensee").innerHTML = (Math.round(traitementInflationCompensee * 100) / 100).toLocaleString() + "&nbsp;€";
+  document.getElementById("manqueChaqueMois").innerHTML = (Math.round(manqueMensuel * 100) / 100).toLocaleString() + "&nbsp;€";
+  document.getElementById("manqueChaqueAnnee").innerHTML = (Math.round(manqueAnnuel * 100) / 100).toLocaleString() + "&nbsp;€";
 
 });
 
