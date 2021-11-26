@@ -7,8 +7,10 @@ const ptIndiceActuel = 4.68;
 const menuEchelon = document.querySelector('select[id="echelon"]');
 menuEchelon.addEventListener("change", () => {
   if (document.getElementById('echelon').value == "0") {
+    document.getElementById('result').style.display = 'none';
     return;
   }
+  document.getElementById('result').style.display = 'block';
   let indice = parseInt(document.getElementById('echelon').value,10);
   let traitementBrutActuel = indice * ptIndiceActuel;
   let traitementInflationCompensee = traitementBrutActuel + traitementBrutActuel * ((inflationDepuis1995 - augmentationIndiceDepuis1995)/100);
