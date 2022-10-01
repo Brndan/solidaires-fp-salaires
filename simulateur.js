@@ -1,7 +1,7 @@
 
-const inflationDepuis1995 = 41.34; // en 2021
-const augmentationIndiceDepuis1995 = 14.1; // en 2021
-const ptIndiceActuel = 4.68; // en 2021
+const inflationDepuis1995 = 48.83; // en 2022
+const augmentationIndiceDepuis1995 = 18.29; // en 2022
+const ptIndiceActuel = 4.85; // en 2022
 
 // Événement 
 const menuEchelon = document.querySelector('select[id="echelon"]');
