@@ -1,7 +1,7 @@
 
-const inflationDepuis1995 = 42.5;
-const augmentationIndiceDepuis1995 = 14.3;
-const ptIndiceActuel = 4.68;
+const inflationDepuis1995 = 41.34; // en 2021
+const augmentationIndiceDepuis1995 = 14.1; // en 2021
+const ptIndiceActuel = 4.68; // en 2021
 
 // Événement 
 const menuEchelon = document.querySelector('select[id="echelon"]');
