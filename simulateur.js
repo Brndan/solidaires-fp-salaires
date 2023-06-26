@@ -1,4 +1,4 @@
-
+// <script> // pour site de Solidaires
 const inflationDepuis1995 = 55.00; // en mai 2023
 const augmentationIndiceDepuis1995 = 20.00; // en juillet 2023
 const ptIndiceActuel = 4.92; // en juillet 2023
@@ -23,3 +23,6 @@ menuEchelon.addEventListener("change", () => {
   document.getElementById("manqueChaqueAnnee").innerHTML = (Math.round(manqueAnnuel * 100) / 100).toLocaleString() + "&nbsp;€";
 
 });
+
+// Pour le site de Solidaires
+// </script>
