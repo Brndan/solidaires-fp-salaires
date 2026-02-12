@@ -1,7 +1,7 @@
 // <script> // pour site de Solidaires
-const inflationDepuis2000 = 52.30; // en décembre 2024
-const augmentationIndiceDepuis2000 = 15.37; // en décembre 2024
-const ptIndiceActuel = 4.92; // en décembre 2024
+const inflationDepuis2000 = 53.67; // en janvier 2026 (jusqu'à 2025 inclus)
+const augmentationIndiceDepuis2000 = 15.37; // en décembre 2025
+const ptIndiceActuel = 4.92; // en décembre 2025
 
 // Événement 
 const menuEchelon = document.querySelector('select[id="echelon"]');
